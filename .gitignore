@@ -1,3 +1,13 @@
+### Custom restrictions ###
+build/
+*.jar
+#файл module2.jar из п 2.1.b по-прежнему не должен игнорироваться/
+!module2.jar
+**/application-local.properties
+.idea/
+.idea_copy/
+!.idea_copy/workspace.xml
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
